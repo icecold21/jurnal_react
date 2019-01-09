@@ -1,0 +1,664 @@
+.email_transaction_detail ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #afafaf;
+  font-size: 13px;
+  font-family: Roboto-Light; }
+
+.email_transaction_detail :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #afafaf;
+  font-size: 13px;
+  font-family: Roboto-Light;
+  opacity: 1; }
+
+.email_transaction_detail ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #afafaf;
+  font-size: 13px;
+  font-family: Roboto-Light;
+  opacity: 1; }
+
+.email_transaction_detail :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #afafaf;
+  font-size: 13px;
+  font-family: Roboto-Light; }
+
+.email_transaction_detail ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #afafaf;
+  font-size: 13px;
+  font-family: Roboto-Light; }
+
+.email_transaction_detail .secure_auth_iframe {
+  width: 400px;
+  height: 420px;
+  border: 0; }
+
+.email_transaction_detail .loading-container {
+  text-align: center;
+  background: white;
+  color: #70C2E8;
+  padding: 15em 2em;
+  vertical-align: middle;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: box !important; }
+
+.email_transaction_detail .input_label_text {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 0; }
+
+.email_transaction_detail .breadcrumb_progress {
+  padding: 0 20px;
+  display: inline-block; }
+
+.email_transaction_detail .breadcrumb_content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  background: #FBFCFC;
+  border-bottom: solid;
+  border-bottom-color: #70C2E8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
+
+.email_transaction_detail .line_progress {
+  display: inline-block;
+  border-bottom: dashed;
+  width: calc( 100% - 650px);
+  position: relative;
+  border-width: 3px;
+  border-bottom-color: #c2c1c3;
+  margin-bottom: 28px; }
+  .email_transaction_detail .line_progress.active {
+    border-bottom-color: #AFC862; }
+
+@media only screen and (max-width: 500px) {
+  .email_transaction_detail .breadcrumb_label {
+    font-size: 10px !important;
+    margin-bottom: 5px; } }
+
+.email_transaction_detail .breadcrumb_label {
+  font-size: 12px;
+  font-family: Roboto-Medium;
+  color: #d9d9d9;
+  margin-top: 5px; }
+  .email_transaction_detail .breadcrumb_label.active {
+    color: #424143; }
+  .email_transaction_detail .breadcrumb_label.disabled {
+    background-color: transparent;
+    color: #d9d9d9 !important; }
+
+.email_transaction_detail .breadcrumb_icon {
+  border: solid;
+  border-radius: 50%;
+  width: 24px;
+  margin: auto;
+  height: 24px;
+  padding-top: 4px;
+  font-size: 14px !important;
+  font-family: Roboto-Medium;
+  border-color: #d9d9d9;
+  color: #d9d9d9;
+  padding-top: 0px; }
+  .email_transaction_detail .breadcrumb_icon.active {
+    color: #FFFFFF;
+    border-color: #009BDE;
+    background: #009BDE;
+    font-size: 14px; }
+  .email_transaction_detail .breadcrumb_icon.disabled {
+    color: #FFFFFF;
+    border-color: #009BDE;
+    background: #009BDE;
+    font-size: 14px;
+    opacity: 0.5; }
+
+.email_transaction_detail .blank_grey_box {
+  text-align: center;
+  background: #F4F5F5;
+  padding: 7em 1em; }
+
+.email_transaction_detail .main_content {
+  max-width: 900px;
+  margin: auto;
+  min-height: 700px; }
+
+.email_transaction_detail .blue_void {
+  max-width: 100%;
+  margin: auto;
+  background: #dfeff5;
+  max-height: 270px; }
+
+.email_transaction_detail .status_container {
+  padding-bottom: 20px;
+  padding-top: 10px; }
+
+.email_transaction_detail .footer {
+  background: #eef9fe;
+  color: black;
+  height: 40px;
+  position: sticky;
+  bottom: 0px; }
+
+.email_transaction_detail .row-no-margin {
+  margin: 0; }
+
+.email_transaction_detail .link-text {
+  color: black;
+  font-family: Roboto-Bold; }
+
+.email_transaction_detail .footer-text {
+  font-size: 10px;
+  font-family: Roboto-Regular;
+  margin-top: 14px; }
+  .email_transaction_detail .footer-text.left {
+    padding-left: 10px; }
+  .email_transaction_detail .footer-text.right {
+    padding-right: 10px; }
+
+.email_transaction_detail .header_container {
+  background: white;
+  padding: 20px 30px 0px 30px;
+  margin-bottom: 1em;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
+  .email_transaction_detail .header_container.et_limited_sizing {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.email_transaction_detail .blue_proceed_btn {
+  background-color: #009BDE !important;
+  font-size: 12px; }
+
+.email_transaction_detail .box_ribbon {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  border: 1px solid #BBB;
+  background: #EEE; }
+
+.email_transaction_detail .ribbon_header {
+  position: relative;
+  left: -38px;
+  z-index: 1; }
+
+.email_transaction_detail .ribbon_header span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-align: left;
+  display: block;
+  background: #009BDE;
+  box-shadow: 0 3px 10px -5px black;
+  padding: 10px 10px 10px 37px; }
+  .email_transaction_detail .ribbon_header span .transaction_label {
+    font-size: 12px;
+    font-family: Roboto-Light;
+    letter-spacing: 1px; }
+  .email_transaction_detail .ribbon_header span .with_label {
+    font-size: 12px;
+    font-family: Roboto-Regular; }
+  .email_transaction_detail .ribbon_header span .person_style {
+    font-size: 16px;
+    padding-left: 5px;
+    font-family: Roboto-Regular; }
+
+.email_transaction_detail .ribbon_header span::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 5px solid #006EAD;
+  border-bottom: 4px solid transparent;
+  border-top: 2px solid #2490b4; }
+
+.email_transaction_detail .circle_header_container {
+  border-bottom: solid 4px #009bde;
+  margin-bottom: 0px;
+  background-color: #f6f7fa; }
+
+.email_transaction_detail .circle_header {
+  height: 25px;
+  width: 25px;
+  background-color: #009BDE;
+  border-radius: 50%;
+  display: inline-block;
+  color: #FFFFFF;
+  padding-top: 3px;
+  margin-bottom: 5px;
+  margin-top: 10px; }
+
+.email_transaction_detail .inline {
+  display: inline-block; }
+
+.email_transaction_detail .inactive {
+  background-color: #d9d9d9; }
+
+.email_transaction_detail .pay_now_border {
+  font-size: 14px;
+  border: solid 1px;
+  padding: 10px 34px !important;
+  font-family: Roboto-Medium; }
+
+.email_transaction_detail .header_content_container {
+  padding: 0 2em; }
+
+.email_transaction_detail .bottom_margin {
+  margin: 0 0 4px 0; }
+
+.email_transaction_detail .space_between {
+  display: flex;
+  justify-content: space-between; }
+
+.email_transaction_detail .transaction_no_text {
+  padding: 0;
+  color: #a5a5a5;
+  font-family: Roboto-Light; }
+  .email_transaction_detail .transaction_no_text .type_text {
+    float: left;
+    font-size: 22px; }
+  .email_transaction_detail .transaction_no_text .number_text {
+    float: left;
+    margin-left: 8px;
+    font-size: 13px;
+    margin-top: 10px; }
+
+.email_transaction_detail .h2_text {
+  font-family: Roboto-Medium; }
+
+.email_transaction_detail .balance_due_container {
+  display: flex;
+  justify-content: space-between; }
+
+@media only screen and (max-width: 500px) {
+  .email_transaction_detail .balance_due_container {
+    display: block; } }
+
+.email_transaction_detail .balance_due_label {
+  font-size: 12px;
+  font-family: Roboto-Medium; }
+
+.email_transaction_detail .balance_due_amount {
+  font-size: 20px;
+  font-family: Roboto-Medium;
+  color: #565656; }
+
+.email_transaction_detail .pay_now_button {
+  padding: 14px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border-color: #009BDE;
+  color: #009BDE;
+  font-size: 14px;
+  font-family: Roboto-Regular; }
+
+.email_transaction_detail .save_links {
+  padding: 6px 12px;
+  font-size: 12px;
+  color: #427DB3; }
+
+.email_transaction_detail .divider {
+  border-color: #dadada;
+  margin: 6px 0; }
+
+.email_transaction_detail .no_padding {
+  padding: 0; }
+
+.email_transaction_detail .iframe_container {
+  max-width: 900px;
+  max-height: 100%;
+  overflow: hidden; }
+  .email_transaction_detail .iframe_container .iframe_wrapper {
+    position: relative;
+    height: 0;
+    padding-bottom: 107%; }
+  .email_transaction_detail .iframe_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none; }
+
+.email_transaction_detail .left_container {
+  float: left;
+  width: 580px;
+  margin-right: 20px; }
+
+.email_transaction_detail .right_container {
+  display: initial;
+  background: white;
+  float: right;
+  width: 300px;
+  height: 700px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
+
+.email_transaction_detail .only_small_screen_container, .email_transaction_detail .only_mobile_900 {
+  display: none; }
+
+.email_transaction_detail .only_desktop_900 {
+  display: initial; }
+
+.email_transaction_detail .flex_center {
+  display: flex;
+  align-items: center; }
+
+@media only screen and (max-width: 900px) {
+  .email_transaction_detail .right_container {
+    display: none; }
+  .email_transaction_detail .only_small_screen_container {
+    display: initial;
+    float: left;
+    width: 100%;
+    margin-right: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    background: white;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  .email_transaction_detail .left_container {
+    width: 100%; }
+  .email_transaction_detail .only_mobile_900 {
+    display: initial; }
+  .email_transaction_detail .only_desktop_900 {
+    display: none; } }
+
+.email_transaction_detail .payment_methods_container {
+  background: white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding: 2em;
+  margin-bottom: 20px; }
+
+.email_transaction_detail .payment_flows_container {
+  background: white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  padding: 2em; }
+
+.email_transaction_detail .title_text {
+  padding: 0 0 1em 0;
+  font-family: Roboto-Medium;
+  font-size: 18px; }
+
+.email_transaction_detail .payment_method_box {
+  float: left;
+  text-align: center;
+  position: relative; }
+
+.email_transaction_detail .payment_method_icon {
+  width: 120px;
+  background: #FBFCFC;
+  border: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  margin: 0 15px;
+  padding: 1.5em 0;
+  border-color: #F5F5F6;
+  height: 70px; }
+  .email_transaction_detail .payment_method_icon.active {
+    border: solid;
+    border-width: 1px;
+    border-color: #E7EED4; }
+
+.email_transaction_detail .payment_method_label {
+  margin-top: 12px;
+  font-size: 12px; }
+  .email_transaction_detail .payment_method_label.active {
+    font-family: Roboto-Medium; }
+
+.email_transaction_detail .payment_method_box_check {
+  background: #009BDE;
+  padding: 4px;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  left: 124px;
+  top: -8px;
+  font-size: 12px; }
+
+.email_transaction_detail .notice_box {
+  border: solid;
+  border-width: 1px;
+  border-color: #EDECED;
+  margin: 24px 0; }
+  .email_transaction_detail .notice_box .medium_text {
+    font-family: Roboto-Medium;
+    color: black; }
+  .email_transaction_detail .notice_box > .header {
+    background: #F5F5F5;
+    padding: 1em; }
+    .email_transaction_detail .notice_box > .header.blank_content {
+      padding: 2em 1em; }
+  .email_transaction_detail .notice_box > .content {
+    padding: 1em 0; }
+    .email_transaction_detail .notice_box > .content.blank_content {
+      padding: 5em 1em; }
+    .email_transaction_detail .notice_box > .content > ul > li {
+      margin: 15px 26px 15px 0; }
+    .email_transaction_detail .notice_box > .content.smaller_padding {
+      padding: 9px 0; }
+    .email_transaction_detail .notice_box > .content .footer_text {
+      font-size: 13px;
+      padding: 0 2em 0 0; }
+
+.email_transaction_detail .notice_box_blue {
+  border: solid;
+  border-width: 1px;
+  border-color: #E5E9ED;
+  margin: 24px 0; }
+  .email_transaction_detail .notice_box_blue > .header {
+    background: #70C2E7;
+    padding: 1em 2em;
+    color: #FFFFFF; }
+  .email_transaction_detail .notice_box_blue > .content > .details {
+    font-size: 13px;
+    padding: 1em 2em;
+    background: #F5FBFE; }
+    .email_transaction_detail .notice_box_blue > .content > .details .detail_label {
+      width: 35%;
+      float: left;
+      color: #909092; }
+    .email_transaction_detail .notice_box_blue > .content > .details .detail_description {
+      float: left;
+      width: 65%;
+      font-family: Roboto-Medium; }
+
+.email_transaction_detail .float-left {
+  float: left; }
+
+.email_transaction_detail .float-right {
+  float: right; }
+
+.email_transaction_detail .button {
+  border: 0;
+  padding: 9px 27px;
+  background: #CCCCCC;
+  border-radius: 3px;
+  text-align: center;
+  float: right;
+  color: white; }
+  .email_transaction_detail .button.success {
+    background: #96BC47; }
+  .email_transaction_detail .button.margin-top-24 {
+    margin-top: 24px; }
+  .email_transaction_detail .button.disabled {
+    background: #E1E3E3; }
+
+.email_transaction_detail .button_smaller.success {
+  border: 0;
+  background: #96BC47;
+  color: white;
+  float: right;
+  padding: 9px 16px;
+  margin: 0 2em;
+  font-size: 13px; }
+
+.email_transaction_detail .transaction_detail {
+  padding: 2em; }
+  .email_transaction_detail .transaction_detail > .logo {
+    text-align: right;
+    max-height: 100px;
+    vertical-align: middle;
+    padding: 1em 0; }
+  .email_transaction_detail .transaction_detail > .heading_text_thin {
+    margin-bottom: 2em;
+    font-family: Roboto-Medium;
+    font-size: 16px; }
+  .email_transaction_detail .transaction_detail > .details {
+    font-size: 12px;
+    margin-bottom: 30px; }
+    .email_transaction_detail .transaction_detail > .details .detail_label {
+      width: 40%;
+      float: left;
+      color: #909092; }
+    .email_transaction_detail .transaction_detail > .details .detail_description {
+      float: left;
+      width: 60%; }
+
+.email_transaction_detail .collapsible_link {
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #EDECED;
+  padding: 0.5em 2em; }
+  .email_transaction_detail .collapsible_link .icon_positioned {
+    float: right;
+    font-size: 18px;
+    color: black; }
+
+.email_transaction_detail .collapsible_content {
+  padding: 1em 2em;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #EDECED;
+  font-size: 12px;
+  color: grey;
+  line-height: 2; }
+  .email_transaction_detail .collapsible_content ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding-left: 24px; }
+
+.zero_margin {
+  margin: 0; }
+
+.margin_top_2em {
+  margin-top: 2em; }
+
+.margin_bottom_2em {
+  margin-bottom: 2em; }
+
+.alert_container {
+  padding: 0 2em; }
+
+.background_light_red {
+  background: #fdd5d4; }
+
+.background_light_blue {
+  background: #F5FBFE; }
+
+.background_light_green {
+  background: #FBFBEF; }
+
+.alert_box_height {
+  height: 75px; }
+
+.alert_holder {
+  float: left;
+  padding: 16px 14px;
+  font-size: 23px;
+  color: white;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  background: #BBBBBB;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  padding: 24px 12px; }
+  .alert_holder.blue_notif {
+    background: #70C2E7; }
+  .alert_holder.green_notif {
+    background: #AFC862; }
+  .alert_holder.red_notif {
+    background: #cc003d; }
+
+.alert_content {
+  padding: 12px 0px 12px 18px;
+  float: left;
+  max-width: 775px;
+  background: #BBBBBB;
+  position: relative;
+  overflow: hidden; }
+  .alert_content.blue_notif {
+    background: #F5FBFE; }
+  .alert_content.green_notif {
+    background: #FBFBEF;
+    width: 93.9%; }
+  .alert_content.red_notif {
+    background: #fdd5d4; }
+
+.input_validation_icon {
+  position: relative;
+  bottom: 25px; }
+  .input_validation_icon.size_6 {
+    left: 235px; }
+  .input_validation_icon.size_3 {
+    left: 105px; }
+  .input_validation_icon.correct {
+    color: #96BC47; }
+  .input_validation_icon.wrong {
+    color: #ff6464; }
+
+.shadow {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5); }
+
+.status_label {
+  font-family: Roboto-Regular;
+  font-size: 12px; }
+
+.transaction_status {
+  font-family: Roboto-Medium;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+#status_label {
+  font-size: 12px; }
+  #status_label.overdue {
+    color: #e74c3c; }
+  #status_label.open, #status_label.partial {
+    color: #f1c40f; }
+  #status_label.paid {
+    color: #27ae60; }
+
+.transaction_not_available.container_full_width {
+  text-align: center;
+  background: white;
+  padding: 3em 2em;
+  min-height: 600px; }
+
+.transaction_not_available.box {
+  border: solid;
+  padding: 2em;
+  border-radius: 5px;
+  border-color: grey;
+  color: grey;
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.transaction_not_available > .red_icon {
+  font-size: 30px;
+  margin-bottom: 12px;
+  color: #d74022; }
+
+.transaction_not_available > a {
+  font-size: 12px;
+  text-decoration: underline; }
